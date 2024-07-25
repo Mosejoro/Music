@@ -1,0 +1,20 @@
+.bi-tiktok {
+    color: #111111;
+    
+    filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+  }
+  .M img{
+    width: 7rem;
+  }
+
+  .S{
+    background-image: url(Images/pikaso_texttoimage_papercut-illustration-A-music-studio-where-a-Black\ \(2\).jpeg);
+    background-position: center;
+    filter: brightness(2px);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .G a{
+    position: sticky;
+    right: 0;
+  }
