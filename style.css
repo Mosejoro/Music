@@ -14,8 +14,61 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .G a{
-    position: sticky;
-    right: 0;
-  }
-  
+.col{
+  height: 100%;
+}
+.Dard {
+  transition: 1s ease-in-out;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Dard .img {
+  width: 20rem;
+  height: 20em;
+  background: white;
+  border-radius: 15px;
+  margin: auto;
+  background-image: url(Images/Mee.jpg);
+  background-size: cover;
+}
+
+.Dard .share {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.Dard a {
+  color: white;
+  transition: .4s ease-in-out;
+}
+
+.Dard a:hover {
+  color: red;
+}
+
+.Dard button {
+  padding: 0.8em 1.7em;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: .4s ease-in-out;
+}
+
+.Dard button:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+.G{
+  top:0rem;
+  position: sticky;
+}
