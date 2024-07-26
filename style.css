@@ -62,7 +62,9 @@
   color: rgb(0, 0, 0);
   transition: .4s ease-in-out;
 }
-
+.T{
+  height:68vh;
+}
 .Dard button:hover {
   background: red;
   color: white;
@@ -71,4 +73,7 @@
 .G{
   top:0rem;
   position: sticky;
+}
+footer{
+  height: 100vh;
 }
